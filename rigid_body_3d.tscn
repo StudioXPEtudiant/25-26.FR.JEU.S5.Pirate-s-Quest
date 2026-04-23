@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddvfhabc6xvyn"]
+
+[ext_resource type="ArrayMesh" uid="uid://b72qk4fixmql0" path="res://kenney_cube-pets_1.0/Models/OBJ format/animal-penguin.obj" id="1_vb78c"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t4ywh"]
+size = Vector3(0.285767, 0.268066, 0.293213)
+
+[node name="RigidBody3D" type="RigidBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.003479, 0.225342, 0.0130615)
+shape = SubResource("BoxShape3D_t4ywh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0)
+mesh = ExtResource("1_vb78c")
