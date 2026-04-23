@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dx5mrwjtuk3jd"
+path="res://.godot/imported/animal-parrot.obj-6df05819764a9020467dca02d855b822.mesh"
+
+[deps]
+
+files=["res://.godot/imported/animal-parrot.obj-6df05819764a9020467dca02d855b822.mesh"]
+
+source_file="res://kenney_cube-pets_1.0/Models/OBJ format/animal-parrot.obj"
+dest_files=["res://.godot/imported/animal-parrot.obj-6df05819764a9020467dca02d855b822.mesh", "res://.godot/imported/animal-parrot.obj-6df05819764a9020467dca02d855b822.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bnokk815shd8b"
+path="res://.godot/imported/animal-beaver.obj-02cf106a2fb869ee8cfdf4357a1f08df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/animal-beaver.obj-02cf106a2fb869ee8cfdf4357a1f08df.mesh"]
+
+source_file="res://kenney_cube-pets_1.0/Models/OBJ format/animal-beaver.obj"
+dest_files=["res://.godot/imported/animal-beaver.obj-02cf106a2fb869ee8cfdf4357a1f08df.mesh", "res://.godot/imported/animal-beaver.obj-02cf106a2fb869ee8cfdf4357a1f08df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://caj708jw4i3w7"
+path="res://.godot/imported/animal-polar.obj-7866f8f3972244abe3054cf48dbb2618.mesh"
+
+[deps]
+
+files=["res://.godot/imported/animal-polar.obj-7866f8f3972244abe3054cf48dbb2618.mesh"]
+
+source_file="res://kenney_cube-pets_1.0/Models/OBJ format/animal-polar.obj"
+dest_files=["res://.godot/imported/animal-polar.obj-7866f8f3972244abe3054cf48dbb2618.mesh", "res://.godot/imported/animal-polar.obj-7866f8f3972244abe3054cf48dbb2618.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

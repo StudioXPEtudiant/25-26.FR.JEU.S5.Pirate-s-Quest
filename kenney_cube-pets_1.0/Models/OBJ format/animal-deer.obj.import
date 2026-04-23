@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doxpmwd22kost"
+path="res://.godot/imported/animal-deer.obj-f768ec6a2134507d580d8fa4f9d8f35c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/animal-deer.obj-f768ec6a2134507d580d8fa4f9d8f35c.mesh"]
+
+source_file="res://kenney_cube-pets_1.0/Models/OBJ format/animal-deer.obj"
+dest_files=["res://.godot/imported/animal-deer.obj-f768ec6a2134507d580d8fa4f9d8f35c.mesh", "res://.godot/imported/animal-deer.obj-f768ec6a2134507d580d8fa4f9d8f35c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

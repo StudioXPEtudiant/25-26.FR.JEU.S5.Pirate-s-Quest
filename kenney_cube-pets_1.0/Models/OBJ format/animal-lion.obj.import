@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4dath5wsyn6s"
+path="res://.godot/imported/animal-lion.obj-dca0cb76231e026b62bf483afc929659.mesh"
+
+[deps]
+
+files=["res://.godot/imported/animal-lion.obj-dca0cb76231e026b62bf483afc929659.mesh"]
+
+source_file="res://kenney_cube-pets_1.0/Models/OBJ format/animal-lion.obj"
+dest_files=["res://.godot/imported/animal-lion.obj-dca0cb76231e026b62bf483afc929659.mesh", "res://.godot/imported/animal-lion.obj-dca0cb76231e026b62bf483afc929659.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
