@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cux4w1ppt2fmy"
+path="res://.godot/imported/crate-bottles.obj-75b0d9ac8781c6ff31dc2d700f54280f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crate-bottles.obj-75b0d9ac8781c6ff31dc2d700f54280f.mesh"]
+
+source_file="res://OBJ format/crate-bottles.obj"
+dest_files=["res://.godot/imported/crate-bottles.obj-75b0d9ac8781c6ff31dc2d700f54280f.mesh", "res://.godot/imported/crate-bottles.obj-75b0d9ac8781c6ff31dc2d700f54280f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

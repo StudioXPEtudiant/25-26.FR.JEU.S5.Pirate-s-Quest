@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://w5micbb1jqtn"
+path="res://.godot/imported/palm-detailed-straight.obj-4c66a941b74f9b4d2b59431cdbb8696d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/palm-detailed-straight.obj-4c66a941b74f9b4d2b59431cdbb8696d.mesh"]
+
+source_file="res://OBJ format/palm-detailed-straight.obj"
+dest_files=["res://.godot/imported/palm-detailed-straight.obj-4c66a941b74f9b4d2b59431cdbb8696d.mesh", "res://.godot/imported/palm-detailed-straight.obj-4c66a941b74f9b4d2b59431cdbb8696d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
