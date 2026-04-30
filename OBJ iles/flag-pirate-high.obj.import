@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bh5qfadqivkv4"
+path="res://.godot/imported/flag-pirate-high.obj-ab1191bb9f8da958780c71d1e14d7988.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-pirate-high.obj-ab1191bb9f8da958780c71d1e14d7988.mesh"]
+
+source_file="res://OBJ iles/flag-pirate-high.obj"
+dest_files=["res://.godot/imported/flag-pirate-high.obj-ab1191bb9f8da958780c71d1e14d7988.mesh", "res://.godot/imported/flag-pirate-high.obj-ab1191bb9f8da958780c71d1e14d7988.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

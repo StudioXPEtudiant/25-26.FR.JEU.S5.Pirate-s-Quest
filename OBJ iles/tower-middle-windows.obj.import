@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fvhvyu0v2ulg"
+path="res://.godot/imported/tower-middle-windows.obj-a8a86cad4e4ea800d6c152111bd3962e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-middle-windows.obj-a8a86cad4e4ea800d6c152111bd3962e.mesh"]
+
+source_file="res://OBJ iles/tower-middle-windows.obj"
+dest_files=["res://.godot/imported/tower-middle-windows.obj-a8a86cad4e4ea800d6c152111bd3962e.mesh", "res://.godot/imported/tower-middle-windows.obj-a8a86cad4e4ea800d6c152111bd3962e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

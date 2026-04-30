@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bymgnbthyyplq"
+path="res://.godot/imported/flag-high-pennant.obj-790779d3bf43d618ce3864e41482e540.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-high-pennant.obj-790779d3bf43d618ce3864e41482e540.mesh"]
+
+source_file="res://OBJ iles/flag-high-pennant.obj"
+dest_files=["res://.godot/imported/flag-high-pennant.obj-790779d3bf43d618ce3864e41482e540.mesh", "res://.godot/imported/flag-high-pennant.obj-790779d3bf43d618ce3864e41482e540.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

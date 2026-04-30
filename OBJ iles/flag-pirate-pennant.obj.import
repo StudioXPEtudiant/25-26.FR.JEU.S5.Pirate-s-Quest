@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8uaa8qlhe44t"
+path="res://.godot/imported/flag-pirate-pennant.obj-976227c28669615054d30b07e30a3e25.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-pirate-pennant.obj-976227c28669615054d30b07e30a3e25.mesh"]
+
+source_file="res://OBJ iles/flag-pirate-pennant.obj"
+dest_files=["res://.godot/imported/flag-pirate-pennant.obj-976227c28669615054d30b07e30a3e25.mesh", "res://.godot/imported/flag-pirate-pennant.obj-976227c28669615054d30b07e30a3e25.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

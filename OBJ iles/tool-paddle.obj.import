@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b7acch7tseodp"
+path="res://.godot/imported/tool-paddle.obj-45346342ce3af22402671a1591fc00cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tool-paddle.obj-45346342ce3af22402671a1591fc00cd.mesh"]
+
+source_file="res://OBJ iles/tool-paddle.obj"
+dest_files=["res://.godot/imported/tool-paddle.obj-45346342ce3af22402671a1591fc00cd.mesh", "res://.godot/imported/tool-paddle.obj-45346342ce3af22402671a1591fc00cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

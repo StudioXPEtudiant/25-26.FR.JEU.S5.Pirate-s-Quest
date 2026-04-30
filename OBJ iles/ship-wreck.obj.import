@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://s0jr5wcce4y"
+path="res://.godot/imported/ship-wreck.obj-0deb47a64d8a1056ad6e125502c076bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ship-wreck.obj-0deb47a64d8a1056ad6e125502c076bb.mesh"]
+
+source_file="res://OBJ iles/ship-wreck.obj"
+dest_files=["res://.godot/imported/ship-wreck.obj-0deb47a64d8a1056ad6e125502c076bb.mesh", "res://.godot/imported/ship-wreck.obj-0deb47a64d8a1056ad6e125502c076bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

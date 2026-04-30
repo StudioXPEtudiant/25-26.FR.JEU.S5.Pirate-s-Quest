@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6wndmecs3j8t"
+path="res://.godot/imported/cannon-mobile.obj-678d272b6d09c886150531c007f484fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cannon-mobile.obj-678d272b6d09c886150531c007f484fe.mesh"]
+
+source_file="res://OBJ iles/cannon-mobile.obj"
+dest_files=["res://.godot/imported/cannon-mobile.obj-678d272b6d09c886150531c007f484fe.mesh", "res://.godot/imported/cannon-mobile.obj-678d272b6d09c886150531c007f484fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

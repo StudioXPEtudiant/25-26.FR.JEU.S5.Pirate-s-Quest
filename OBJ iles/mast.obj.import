@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://behsbeuu6wm64"
+path="res://.godot/imported/mast.obj-4f1346cbd584ce2705fd7658f4d0bb3d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mast.obj-4f1346cbd584ce2705fd7658f4d0bb3d.mesh"]
+
+source_file="res://OBJ iles/mast.obj"
+dest_files=["res://.godot/imported/mast.obj-4f1346cbd584ce2705fd7658f4d0bb3d.mesh", "res://.godot/imported/mast.obj-4f1346cbd584ce2705fd7658f4d0bb3d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

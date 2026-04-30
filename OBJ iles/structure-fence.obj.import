@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxjcqwic7v8s3"
+path="res://.godot/imported/structure-fence.obj-893ed08e7f86d509cb2cae92f6f97896.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-fence.obj-893ed08e7f86d509cb2cae92f6f97896.mesh"]
+
+source_file="res://OBJ iles/structure-fence.obj"
+dest_files=["res://.godot/imported/structure-fence.obj-893ed08e7f86d509cb2cae92f6f97896.mesh", "res://.godot/imported/structure-fence.obj-893ed08e7f86d509cb2cae92f6f97896.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
