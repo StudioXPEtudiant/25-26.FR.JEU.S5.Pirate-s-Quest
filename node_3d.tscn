@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://4naqo3ap4c06"]
+
+[ext_resource type="ArrayMesh" path="res://OBJ format/tower-watch.obj" id="1_n8yme"]
+[ext_resource type="ArrayMesh" path="res://OBJ format/tower-top.obj" id="2_fgsoi"]
+[ext_resource type="ArrayMesh" path="res://OBJ format/tower-base-door.obj" id="3_nsemk"]
+[ext_resource type="ArrayMesh" path="res://OBJ format/patch-grass.obj" id="4_41gel"]
+[ext_resource type="ArrayMesh" path="res://OBJ format/rocks-a.obj" id="5_bovsd"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Tower-watch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.140421, 4.95709, -0.201717)
+mesh = ExtResource("1_n8yme")
+
+[node name="Tower-top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.199085, 7.5809, -0.120678)
+mesh = ExtResource("2_fgsoi")
+
+[node name="Tower-base-door" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0600901, 2.76221, -0.109473)
+mesh = ExtResource("3_nsemk")
+
+[node name="Patch-grass" type="MeshInstance3D" parent="."]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0.958559, 0, -0.205503)
+mesh = ExtResource("4_41gel")
+
+[node name="Rocks-a" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77708, 2.29619, 1.44549)
+mesh = ExtResource("5_bovsd")
