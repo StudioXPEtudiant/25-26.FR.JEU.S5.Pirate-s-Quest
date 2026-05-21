@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://4naqo3ap4c06"]
+[gd_scene load_steps=10 format=3 uid="uid://4naqo3ap4c06"]
 
 [ext_resource type="ArrayMesh" uid="uid://dp17watior2jf" path="res://OBJ iles/tower-watch.obj" id="1_6oldw"]
 [ext_resource type="ArrayMesh" uid="uid://cketmtno200ua" path="res://OBJ iles/tower-top.obj" id="2_5lsid"]
@@ -29,3 +29,198 @@ mesh = ExtResource("4_5c8or")
 [node name="Rocks-a" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77708, 2.29619, 1.44549)
 mesh = ExtResource("5_d84y7")
+[ext_resource type="ArrayMesh" uid="uid://21qmlhfkemcr" path="res://OBJ iles/tower-complete-large.obj" id="3_0xioy"]
+[ext_resource type="ArrayMesh" uid="uid://b2e6xp43l32s0" path="res://OBJ iles/rocks-c.obj" id="4_40q3x"]
+[ext_resource type="ArrayMesh" uid="uid://dpa03e76tblq6" path="res://OBJ iles/patch-grass.obj" id="4_t8hdx"]
+[ext_resource type="ArrayMesh" uid="uid://6wndmecs3j8t" path="res://OBJ iles/cannon-mobile.obj" id="5_edx3l"]
+[ext_resource type="ArrayMesh" uid="uid://cfl3tt3pigjnu" path="res://OBJ iles/rocks-a.obj" id="5_frby3"]
+[ext_resource type="ArrayMesh" uid="uid://byuix8n8rp0w" path="res://OBJ iles/castle-gate.obj" id="6_qrtqm"]
+[ext_resource type="ArrayMesh" uid="uid://b37ylj4i82sg7" path="res://OBJ iles/castle-wall.obj" id="7_ol5tf"]
+[ext_resource type="ArrayMesh" uid="uid://u0o2wdv8fv8s" path="res://OBJ iles/chest.obj" id="8_q8cml"]
+[ext_resource type="ArrayMesh" uid="uid://cux4w1ppt2fmy" path="res://OBJ iles/crate-bottles.obj" id="9_e3wgd"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="Patch-grass" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.98087, 0, -0.517176, 0, 7, 0, 0.517176, 0, 6.98087, 0.958559, 0.0833717, -0.205503)
+mesh = ExtResource("4_t8hdx")
+
+[node name="Rocks-a" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0664413, 1.01615, -5.53734)
+mesh = ExtResource("5_frby3")
+
+[node name="Rocks-a2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.47712, 0.656945, -0.677628)
+mesh = ExtResource("5_frby3")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.0967002, -0.0254771, 0, 0.0254771, -0.0967002, 0, 0, 0, 0.1, -2.05945, 11.1646, 0)
+
+[node name="Tower-complete-large" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.969616, 0, 0.244631, 0, 1, 0, -0.244631, 0, 0.969616, -3.621, 1.55077, 2.08122)
+mesh = ExtResource("3_0xioy")
+
+[node name="Tower-complete-large2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.62499, 1.72331, 0.0278992)
+mesh = ExtResource("3_0xioy")
+
+[node name="Rocks-c" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.635472, -0.141861, 0.75898, 0, 0.982977, 0.183728, -0.772124, -0.116754, 0.624654, -6.60204, 1.95406, -2.843)
+mesh = ExtResource("4_40q3x")
+
+[node name="Cannon-mobile" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.39691, 5.5663, 7.60781)
+mesh = ExtResource("5_edx3l")
+
+[node name="Castle-gate" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3345, 1.61581, 7.85185)
+mesh = ExtResource("6_qrtqm")
+
+[node name="Castle-wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.30105, 2.01883, 8.88369)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, 4.84082)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, 2.93973)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, 1.06782)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, -0.91812)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall9" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, -2.84628)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall10" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, -4.7738)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall11" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4534, 2.01883, -6.75874)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall12" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.63653, 2.01883, -6.75874)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall13" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.06428, 2.01883, -6.75874)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall16" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.32078, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall17" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6887, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall18" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.82185, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall19" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0443802, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall20" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7818, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall21" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.60671, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall22" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.35848, 2.01883, -8.65821)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall24" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.14166, 2.01883, -6.58126)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall26" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.89245, 2.01883, -4.73835)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall27" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.4898, 2.01883, -4.73835)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall28" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2869, 2.01883, -2.75769)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall29" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2869, 2.01883, -0.829809)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall30" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2869, 2.01883, 1.15661)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall31" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2869, 2.01883, 3.10161)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall32" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3758, 2.01883, 3.10161)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall33" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55386, 2.01883, 5.00667)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall34" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.60724, 2.01883, 5.00667)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall35" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.72987, 2.01883, 5.00667)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall36" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.72987, 2.01883, 7.02329)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall37" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.82806, 2.01883, 7.02329)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall38" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.964902, 2.01883, 7.02329)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall39" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.715509, 2.01883, 7.89185)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4237, 2.01883, 6.87174)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2591, 2.01883, 8.88369)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Castle-wall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.31806, 2.01883, 8.88369)
+mesh = ExtResource("7_ol5tf")
+
+[node name="Chest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.46515, 5.99757, -9.04061)
+mesh = ExtResource("8_q8cml")
+
+[node name="Crate-bottles" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.23626, 2.15947, 5.84441)
+mesh = ExtResource("9_e3wgd")
