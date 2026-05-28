@@ -82,11 +82,15 @@ libraries = {
 [node name="penguin_remoded" parent="." instance=ExtResource("2_5vmda")]
 transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, -0.209469, -0.541262)
 
+[node name="right_arm" parent="penguin_remoded" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.014, 0, 0.016)
+
 [node name="slash1_Area" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00826628, 0.00229618)
 
 [node name="slash1_collison" type="CollisionShape3D" parent="slash1_Area"]
 transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.014, 0.220975, -0.0376922, 0.00994003)
 shape = SubResource("BoxShape3D_id7fv")
+
+[connection signal="animation_started" from="AnimationPlayer" to="." method="_on_animation_player_animation_started"]
 
 [editable path="penguin_remoded"]
