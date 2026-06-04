@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://o5fqdnojqko6"]
+
+[ext_resource type="ArrayMesh" uid="uid://i3sl6fxcpcu7" path="res://OBJ iles/ship-small.obj" id="1_63hcy"]
+[ext_resource type="ArrayMesh" uid="uid://1x7bvk7um8ug" path="res://OBJ iles/ship-pirate-small.obj" id="2_s74jv"]
+[ext_resource type="ArrayMesh" uid="uid://c6e4irnmbeson" path="res://OBJ iles/ship-pirate-large.obj" id="3_ve88i"]
+[ext_resource type="ArrayMesh" uid="uid://b56tb7ewkf37o" path="res://OBJ iles/ship-medium.obj" id="4_q1our"]
+[ext_resource type="ArrayMesh" uid="uid://uccjqpx10os3" path="res://OBJ iles/ship-large.obj" id="5_u7oax"]
+[ext_resource type="ArrayMesh" uid="uid://dvdymq8pxgntu" path="res://OBJ iles/ship-ghost.obj" id="6_cie5g"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Ship-small" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.647, 0, 14.4161)
+mesh = ExtResource("1_63hcy")
+
+[node name="Ship-pirate-small" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.6777, 0, 15.4192)
+mesh = ExtResource("2_s74jv")
+
+[node name="Ship-pirate-large" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.3731, 0, 14.5543)
+mesh = ExtResource("3_ve88i")
+
+[node name="Ship-medium" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1048, 0, 27.2698)
+mesh = ExtResource("4_q1our")
+
+[node name="Ship-large" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.95272, 0, 27.3124)
+mesh = ExtResource("5_u7oax")
+
+[node name="Ship-ghost" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.1479, 0, 19.8073)
+mesh = ExtResource("6_cie5g")
