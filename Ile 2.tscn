@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb12eauprwggi"]
+
+[ext_resource type="ArrayMesh" uid="uid://bv77rmo8s4k8l" path="res://OBJ iles/structure-platform.obj" id="1_ksx6f"]
+[ext_resource type="ArrayMesh" uid="uid://i3sl6fxcpcu7" path="res://OBJ iles/ship-small.obj" id="2_skrc7"]
+
+[node name="Ile 2" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7.73045)
+
+[node name="Structure-platform" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 2.49371, 0, 2.15212)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform3" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -3.42225, 0, 2.15212)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform2" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 2.49371, 0, -4.08779)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform4" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -3.23514, 0, -4.08779)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform6" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 2.40546, 0, -10.1071)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform7" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 2.40546, 0, -18.491)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform10" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -9.88556, 0, -8.87337)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Structure-platform11" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -9.88556, 0, 0.743382)
+mesh = ExtResource("1_ksx6f")
+
+[node name="Ship-small" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 2.67539, 1.3573, 0, -1.3573, 2.67539, -8.16285, 2.94874, -8.74658)
+mesh = ExtResource("2_skrc7")
