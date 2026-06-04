@@ -12,9 +12,9 @@ func _physics_process(delta):
 	linear_velocity += direction * moveSpeed * delta
 	prints(direction)
 	var VitesseDeplassement = linear_velocity.length()
-#	if VitesseDeplassement > 5:
-#		look_at(global_position + linear_velocity)
-#		rotation.x = 0
+	if VitesseDeplassement > 5:
+		look_at(global_position + linear_velocity)
+		rotation.x = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
