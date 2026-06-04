@@ -19,7 +19,7 @@
 [ext_resource type="ArrayMesh" uid="uid://cqbvnb1xrnrkv" path="res://OBJ iles/platform-planks.obj" id="17_klof8"]
 [ext_resource type="ArrayMesh" uid="uid://dvdymq8pxgntu" path="res://OBJ iles/ship-ghost.obj" id="18_611yc"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D2" type="Node3D"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 
 [node name="Patch-grass" type="MeshInstance3D" parent="."]
@@ -48,6 +48,7 @@ mesh = ExtResource("5_frby3")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0967001, -0.0254771, 0, 0.0254771, -0.0967001, 0, 0, 0, 0.1, -2.05945, 11.1646, -34.318)
+current = true
 
 [node name="Tower-complete-large" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.969616, 0, 0.244631, 0, 1, 0, -0.244631, 0, 0.969616, -3.621, 1.55077, 2.08122)
