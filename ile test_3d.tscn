@@ -31,4 +31,4 @@ shape = SubResource("BoxShape3D_n7837")
 transform = Transform3D(1, 0, 0, 0, -0.986788, -0.162017, 0, 0.162017, -0.986788, 0, 1.03049, 0)
 
 [node name="RigidBody3D" parent="." instance=ExtResource("1_ujjnc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.897084, 4.03171)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.64747, 4.03171)

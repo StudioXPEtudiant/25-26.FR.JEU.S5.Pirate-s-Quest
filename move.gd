@@ -6,6 +6,8 @@ func _physics_process(delta):
 	velocity.x = Input.get_axis("moveLeft","moveRight") * moveSpeed
 	velocity.z = Input.get_axis("moveUp","moveDown") * moveSpeed
 	move_and_slide()
+	if Input.is_action_pressed("moveUp"):
+		rotation.y = 100
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
