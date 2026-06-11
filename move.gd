@@ -1,20 +1,11 @@
-extends RigidBody3D
+extends CharacterBody3D
 @export var moveSpeed: float=5
-
+@export var movefall: float= -5
 func _physics_process(delta):
-	var left = "moveLeft"
-	var up = "moveUp"
-	var down = "moveDown"
-	var right = "moveRight"
-	var vertical_axe= Input.get_axis(up,down)
-	var horizontal_axe= Input.get_axis(left,right)
-	var direction= Vector3(horizontal_axe,0,vertical_axe)
-	linear_velocity += direction * moveSpeed * delta
-	prints(direction)
-	var VitesseDeplassement = linear_velocity.length()
-	if VitesseDeplassement > 5:
-		look_at(global_position + linear_velocity)
-		rotation.x = 0
+	velocity.y = movefall
+	velocity.x = Input.get_axis("moveLeft","moveRight") * moveSpeed
+	velocity.z = Input.get_axis("moveUp","moveDown") * moveSpeed
+	move_and_slide()
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
