@@ -380,7 +380,7 @@ transform = Transform3D(1.46554, 1.36096, 0, -1.36096, 1.46554, 0, 0, 0, 2, -27.
 mesh = ExtResource("11_dvthd")
 
 [node name="Mast4" type="MeshInstance3D" parent="."]
-transform = Transform3D(1.0224, 0.949443, 1.43292, -1.36096, 1.46554, 0, -1.05, -0.975074, 1.39526, -21.568, 0.999101, 17.8959)
+transform = Transform3D(1.0224, 0.949443, 1.43292, -1.36096, 1.46554, 0, -1.05, -0.975074, 1.39526, -21.568, 0.999101, 19.5035)
 mesh = ExtResource("11_dvthd")
 
 [node name="Patch-sand-foliage" type="MeshInstance3D" parent="."]
