@@ -8,6 +8,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dvdymq8pxgntu" path="res://OBJ iles/ship-ghost.obj" id="6_cie5g"]
 
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47169, 0, 0)
 
 [node name="Ship-small" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.647, 0, 14.4161)

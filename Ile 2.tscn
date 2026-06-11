@@ -15,7 +15,7 @@ transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -3.42225, 0, 2.15212)
 mesh = ExtResource("1_ksx6f")
 
 [node name="Structure-platform2" type="MeshInstance3D" parent="."]
-transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 2.49371, 0, -4.08779)
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 5.29618, 0, -4.08779)
 mesh = ExtResource("1_ksx6f")
 
 [node name="Structure-platform4" type="MeshInstance3D" parent="."]
