@@ -20,6 +20,8 @@
 [ext_resource type="ArrayMesh" uid="uid://c4xqpexweej6a" path="res://OBJ iles/tower-complete-small.obj" id="18_v8age"]
 [ext_resource type="Texture2D" uid="uid://yshar6v1pd50" path="res://OBJ iles/Textures/colormap.png" id="19_kap0t"]
 
+[node name="Node3D2" type="Node3D"]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_clmam"]
 resource_name = "colormap"
 vertex_color_is_srgb = true
@@ -93,6 +95,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.47712, 0.656945, -0.677628)
 mesh = ExtResource("5_frby3")
 
 [node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.0967001, -0.0254771, 0, 0.0254771, -0.0967001, 0, 0, 0, 0.1, -2.05945, 11.1646, -34.318)
+current = true
 transform = Transform3D(-0.0967001, -0.0254771, 0, 0.0254771, -0.0967001, 0, 0, 0, 0.1, -2.05945, 11.1646, 42.4028)
 
 [node name="Tower-complete-large" type="MeshInstance3D" parent="."]
